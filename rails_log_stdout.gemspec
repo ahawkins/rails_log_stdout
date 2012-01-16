@@ -7,11 +7,10 @@ require "rails_log_stdout/version"
 Gem::Specification.new do |s|
   s.name        = "rails_log_stdout"
   s.version     = RailsLogStdout::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of RailsLogStdout."
-  s.description = "TODO: Description of RailsLogStdout."
+  s.authors     = ["Adam Hawkins"]
+  s.email       = ["me@broadcastingadam.com"]
+  s.summary     = "Log all Rails things to STDOUT"
+  s.description = ""
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
