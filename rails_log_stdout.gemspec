@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.summary     = "Log all Rails things to STDOUT"
   s.description = ""
 
-  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["{app,config,db,lib}/**/*"] + ["Rakefile"]
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 3.2.0rc"
