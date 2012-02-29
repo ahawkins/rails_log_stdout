@@ -2,8 +2,7 @@ STDOUT.sync = true
 
 def Rails.stdout_logger
   return @_logger if @_logger
-
-  @_logger = Logger.new(STDOUT)
+  @_logger = ActiveSupport::TaggedLogging.new(Logger.new(STDOUT))
   @_logger.level = Logger.const_get(([ENV['LOG_LEVEL'].to_s.upcase, "INFO"] & %w[DEBUG INFO WARN ERROR FATAL UNKNOWN]).compact.first)
   @_logger
 end
