@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.authors     = ["Adam Hawkins"]
   s.email       = ["me@broadcastingadam.com"]
   s.summary     = "Log all Rails things to STDOUT"
-  s.hompage     = "https://github.com/threadedlabs/rails_log_stdout"
+  s.homepage     = "https://github.com/threadedlabs/rails_log_stdout"
   s.description = ""
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["Rakefile"]
